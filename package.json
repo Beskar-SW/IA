@@ -1,0 +1,17 @@
+{
+  "name": "ia",
+  "version": "1.0.0",
+  "description": "chess system expert",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild -p win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.44.1-sdk",
+    "nw-builder": "^4.0.0-rc.8"
+  }
+}
